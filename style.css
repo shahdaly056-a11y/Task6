@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.game.lose{
+    color: red;
+    border:1px solid red;
+}
+
+.game.win{
+    color: green;
+    border:1px solid green;
+
+}

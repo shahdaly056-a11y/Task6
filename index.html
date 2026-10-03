@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>secret game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>secret game</h1>
+    <div class="game">
+        <button class="help-btn">How to play</button>
+        <input type="number" class="guess" min="1" max="10">
+        <button class="check-btn">check</button>
+        <p class="msg"> put num from 1 to 10</p>
+        <p>
+            Attemps:
+            <span class="Attemps">5</span>
+        </p>
+        <button class="reset">reset</button>
+    </div>
+
+    <div class="overlay"></div>
+    
+    <div class="modal"></div>
+
+
+
+    <script src="./app.js">defer</script>
+</body>
+</html>
